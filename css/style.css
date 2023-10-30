@@ -1,5 +1,5 @@
 /* For Fullscreen Desktop */
-
+/* @media (min-width:1790px) { */
 
 .home {
     background-color: #ffe6e6;
@@ -21,7 +21,7 @@
     
 }
 
-.header {
+.home .header {
     display: inline-flex;
     align-items: center;
     justify-content: center;
@@ -29,14 +29,14 @@
     vertical-align: top;
 }
 
-.home-logo {
+.home .home-logo {
     position: relative;
     width: 24%;
     padding: 1%;
     object-fit: cover;
 }
 
-.navigation {
+.home .navigation {
     display: flex;
     flex-direction: column;
     align-items: flex-end;
@@ -46,7 +46,7 @@
     width: 73%;
 }
 
-.tabs {
+.home .tabs {
     height: 43px;
     gap: 96px;
     padding: 0px 96px;
@@ -100,7 +100,7 @@
 
 .heading {
     display: inline-flex;
-    top: -155px;
+    top: -153px;
     position: relative;
     justify-content: center;
     align-items: center;
@@ -483,3 +483,4 @@ footer {
     line-height: normal;
     border: none;
 }
+

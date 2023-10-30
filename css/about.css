@@ -1,5 +1,5 @@
 /* For Fullscreen Desktop */
-/* @media (min-width:1790px) { */
+@media (min-width:1790px) {
 
 .about {
         background-color: #ffe6e6;
@@ -146,7 +146,7 @@ P {
     position: relative;
     color: var(--Typography---Navy, #051122);
     text-shadow: 8px 8px 8px rgba(255, 255, 255, 0.35);
-    font: 500 36px 'Fira Sans Condensed', sans-serif;
+    font: 300 36px 'Fira Sans Condensed', sans-serif;
     text-align: justify;
     font-style: normal;
     line-height: normal;
@@ -161,7 +161,7 @@ color: var(--Typography---Navy, #051122);
 text-shadow: 8px 8px 8px rgba(255, 255, 255, 0.35);
 font: 700 96px 'Calluna', serif;
 line-height: normal;
-letter-spacing: 10.92px;
+letter-spacing: 11px;
 }
 
 s2 {
@@ -246,7 +246,7 @@ p2 {
 
 .favorite-things li {
     color: var(--Typography---Navy, #051122);
-    font: 500 26px 'Fira Sans Condensed', sans-serif;
+    font: 300 26px 'Fira Sans Condensed', sans-serif;
     letter-spacing: 4px;
     font-style: normal;
     text-shadow: 8px 8px 8px rgba(255, 255, 255, 0.35);
@@ -296,7 +296,7 @@ p2 {
 
 .skills-list ul {
     color: var(--Typography---Navy, #051122);
-    font: 500 26px 'Fira Sans Condensed', sans-serif;
+    font: 300 26px 'Fira Sans Condensed', sans-serif;
     letter-spacing: 4px;
     font-style: normal;
     text-shadow: 8px 8px 8px rgba(255, 255, 255, 0.35);
@@ -401,9 +401,10 @@ footer {
     background-color: var(--baby-pink);
     border-radius: 380px;
     color: var(--navy);
-    font: 600 24px 'Fira Sans Condensed', sans-serif;
+    font: 400 24px 'Fira Sans Condensed', sans-serif;
     text-align: center;
     letter-spacing: 3.12px;
     line-height: normal;
     border: none;
+}
 }
