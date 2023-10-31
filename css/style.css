@@ -11,52 +11,70 @@
     overflow-x: hidden;
   }
 
-
-.body .overlap {
+  .header {
+    display: inline-block;
+    align-items: center;
+    vertical-align: top;
+    justify-content: center;
     position: relative;
-    width: auto;
-    height: auto;
-    margin: 0 auto;
-    
 }
 
-.home .header {
+.main-nav {
     display: inline-flex;
     align-items: center;
     justify-content: center;
     position: relative;
     vertical-align: top;
+    column-gap: 100px;
 }
 
-.home .home-logo {
+/* .body .overlap {
+    position: relative;
+    width: auto;
+    height: auto;
+    margin: 0 auto;
+    
+} */
+
+/* .home .header {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    vertical-align: top;
+} */
+
+.home-logo {
     position: relative;
     width: 24%;
     padding: 1%;
+    margin-left: 40px;
     object-fit: cover;
 }
 
-.home .navigation {
-    display: flex;
+.navigation {
+    display: inline-flex;
     flex-direction: column;
     align-items: flex-end;
     justify-content: center;
     gap: 75px;
     position: relative;
-    width: 73%;
+    width: 78%;
 }
 
-.home .tabs {
+
+.tabs {
     height: 43px;
     gap: 96px;
-    padding: 0px 96px;
-    margin-top: -50px;
+    padding: 0px 75px;
+    margin-top: -20px;
     display: inline-flex;
     align-items: center;
     justify-content: center;
     position: relative;
 }
 
-.home .tab-name-wrapper {
+.tab-name-wrapper {
     flex: 0 0 auto;
     display: inline-flex;
     align-items: center;
@@ -64,7 +82,7 @@
     position: relative;
 }
 
-.home .tab-name {
+.tab-name {
     position: relative;
     width: fit-content;
     text-shadow: 8px 8px 4px #ffffff40;
@@ -75,13 +93,13 @@
     word-wrap: break-word;
 }
 
-.home .tab-name:hover {
+.tab-name:hover {
     text-decoration: underline 3px solid var(--blue);
     text-underline-offset: 5px;
     gap: 10px;
 }
 
-.home .underline {
+.underline {
     position: relative;
     height: 5px;
 }
@@ -225,16 +243,35 @@ white-space: nowrap;
   }
   
 
-  .body .project_cards {
-    box-sizing: border-box;
-    position: inline-flex;
-    align-content: center;
-    justify-content: center;
+.project_cards {
     flex-direction: column;
-    margin: 320px;
-    padding: auto;
+    flex: 1;
+    order: 0;
+    justify-content: center;
+    align-self: stretch;
+    align-items: center;
+    display: flex;
+    margin-bottom: 320px;
+    margin-top: 320px;
+    display: flex;
     object-fit: cover;
-    
+    position: relative;
+}
+.overlay-container{
+    opacity: 0;
+    text-align: center;
+    background-color: #ffffff90;
+    justify-content: center;
+    align-items: center;
+    margin: 50px;
+    padding: 0;
+    display: flex;
+    position: absolute;
+    top: 0%;
+    bottom: 0%;
+    left: 0%;
+    right: 0%;
+    z-index: 9;
 }
 
 .project_cards .project01 {
@@ -255,36 +292,33 @@ white-space: nowrap;
     align-items: center;
 }
 
-
-.project01-overlay .overlay-container{
-    opacity: 0;
-    align-content: flex-start;
-    width: fit-content center;
-    display: block;
-    box-sizing: border-box;
-    background: #ffffff40;
-    justify-content: center;
-    align-items: center;
-}
-
-.overlay-container h3 {
+h3 {
     font: 400 42px 'Calluna', serif;
 }
 
-.overlay-container h4 {
+h4 {
     font: 300 32px 'Calluna', serif;
 }
 
 .overlay-list {
     list-style: none;
-    display: inline-flexbox;
+    display: inline-block;
     column-count: 2;
 }
 
-.project01-overlay .overlay-container:hover {
+.overlay-container:hover {
     opacity: 100%;
     
 }
+
+/* .project01-content .stpats-desktop:hover {
+    transform: scale(.7, .7);
+} */
+
+/* sizes="100vw" width="1000" alt=""   
+class="project-image" 
+style="transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); 
+transform-style: preserve-3d;"> */
 
 /* .project01-content .project01-overlay {
     display: block;
