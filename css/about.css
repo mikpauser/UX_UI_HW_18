@@ -1,5 +1,5 @@
 /* For Fullscreen Desktop */
-@media (min-width:1790px) {
+/* @media (min-width:1790px) { */
 
 .about {
         background-color: #ffe6e6;
@@ -218,6 +218,8 @@ p2 {
 
 .leaves {
     transform: translate(0%, -75%);
+    position: relative;
+    z-index: 3;
 }
 
 .favorites {
@@ -228,6 +230,8 @@ p2 {
     margin-top: -300px;
     margin-right: 70px;
     padding-bottom: 90px;
+    position: relative;
+    z-index: 5;
 }
 
 .family {
@@ -406,5 +410,4 @@ footer {
     letter-spacing: 3.12px;
     line-height: normal;
     border: none;
-}
 }
