@@ -291,13 +291,12 @@ p2 {
 
 .skills-list {
     display: inline-flex;
-    margin-left: 0px;
     display: column;
     width: 100%;
-    align-items: first baseline;
+    align-items: baseline;
     justify-content: space-evenly;
-    gap: 20px;
-    padding: 10px;
+    gap: 0;
+    padding: 0;
 }
 
 .skills-list ul {
